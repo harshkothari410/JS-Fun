@@ -1,0 +1,103 @@
+<html>
+<body>
+
+
+<HEAD>
+
+
+<style>
+<!--
+
+.mouseBeOffMe {
+border-top:    10px  solid #000000; 
+border-bottom: 10px  solid #000000; 
+border-left:   6px   solid #000000; 
+border-right:  10px  solid #000000; 
+}
+
+.mouseBeOnMe {
+border-top:    6px   solid #000000;
+border-bottom: 14px  solid #000000; 
+border-left:   10px  solid #000000; 
+border-right:  6px   solid #000000;
+}
+
+.mouseBeDown {
+border-top:    13px  solid #000000;
+border-bottom: 7px   solid #000000; 
+border-left:   10px  solid #000000; 
+border-right:  6px   solid #000000;
+}
+
+.mouseBeUp {
+border-top:    10px  solid #000000;
+border-bottom: 10px  solid #000000; 
+border-left:   10px  solid #000000; 
+border-right:  6px   solid #000000;
+}
+
+//-->
+</style>
+</HEAD>
+
+
+<BODY>
+
+          <table border="0" cellpadding="7" cellspacing="0" bgcolor="#000000">
+          <tr>
+          <td bgcolor="#000000">
+<img src    = "slideshow1_1.jpg"
+title       = "This is the Image One Label"
+width       = "90"
+height      = "90"
+border      = "0"
+class       = "mouseBeOffMe"
+onmouseover = "this.className='mouseBeOnMe'"
+onmousedown = "this.className='mouseBeDown'"
+onmouseup   = "this.className='mouseBeUp'"
+onmouseout  = "this.className='mouseBeOffMe'">
+
+<img src    = "slideshow1_2.jpg"
+title       = "This is the Image Two Label"
+width       = "90"
+height      = "90"
+border      = "0"
+class       = "mouseBeOffMe"
+onmouseover = "this.className='mouseBeOnMe'"
+onmousedown = "this.className='mouseBeDown'"
+onmouseup   = "this.className='mouseBeUp'"
+onmouseout  = "this.className='mouseBeOffMe'">
+
+<img src    = "slideshow1_3.jpg"
+title       = "This is the Image Three Label"
+width       = "90"
+height      = "90"
+border      = "0"
+class       = "mouseBeOffMe"
+onmouseover = "this.className='mouseBeOnMe'"
+onmousedown = "this.className='mouseBeDown'"
+onmouseup   = "this.className='mouseBeUp'"
+onmouseout  = "this.className='mouseBeOffMe'">
+          </td>
+          </tr>
+          <tr>
+          <td bgcolor="#141414" align="center">
+<font color="#EFE7DF" size="2" face="Arial">Move the mouse slowly over each
+image, press<br>
+down the mouse button, then slowly release it.<br>
+Exercise the buttons more rapidly to see the full<br>
+effect.  The image buttons have true four-state<br>
+motion.</font>
+          </td>
+          </tr>
+          </table>
+<font FACE="helvetica,arial,geneva"><strong></strong>
+<p>Simply click inside the window below, use your cursor to highlight the script, and copy </p>
+<br/><br/></font>
+<form>
+<input type=button value="Highlight All" onClick="javascript:this.form.txt.focus();this.form.txt.select();">&nbsp;&nbsp;&nbsp;&nbsp;
+<textarea NAME="txt" ROWS=20  cols="69"5 WRAP=VIRTUAL>
+My name is Harsh Kothari. I am engineering Student :)
+</textarea></form>
+</body>
+</html>
